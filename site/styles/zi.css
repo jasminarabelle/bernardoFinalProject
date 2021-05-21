@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFDED;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+body{
+    background-color: #201335;
+    width: 80%;
+}
+#digiArt, #tradArt{
+    border: solid #fce762 3pt;
+    margin-bottom: 30px;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.navis{
+    display: inline-block;
+    width: 160px;
+    text-align: center;
+    font-weight: 550;
+    padding: 3px;
+    margin-top: 0px;
+    margin-right: 17px;
+    margin-left: 10px;
+    margin-bottom: 0%;
+}
+a, a:active{
+    text-decoration: none;
+    background-color: #E6AF2E;
+    color: #01161E;
+}
+a:hover{ 
+    color: darkseagreen;
+    background-color: darkslategray;
+}
+@font-face {
+    font-family: knewave;
+    src: url("../assets/fonts/knewave.ttf") format("truetype");
+}
+@font-face {
+    font-family: coco;
+    src: url("../assets/fonts/coco.ttf") format("truetype");
+}
+h1{
+    font-family: knewave;
+    font-size: 80pt;
+}
+h2{
+    font-family: coco;
+    font-size: 30pt;
+}
+.digiArt,.tradArt{
+    display: inline-block;
+}
+
+.digiArt1,.digiArt2,.digiArt3,.digiArt4,.digiArt5,.digiArt6,.digiArt7,.digiArt8,.digiArt9{
+    width: 384px;
+    height: 384px;
+}
+.tradArt1,.tradArt6,.tradArt7{
+    width: 317.8px;
+    height: 408.8px;
+}
+.tradArt2{
+    width: 400px;
+    height: 408.8px;
+}
+.tradArt3,.tradArt4,.tradArt5{
+    width: 453px;
+    height: 453px;
+}

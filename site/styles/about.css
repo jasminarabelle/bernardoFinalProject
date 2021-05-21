@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4A5043;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+body{
+    background-color: #E6AF2E;
+    width: 70%;
+}
+h1{
+    font-family: Helvetica;
+    font-size: 50pt;
+}
+.facts{
+    font-size: 30pt;
+    color: #FFB400;
+}
+.profile{
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.profile1,.profile2,.profile3{
+    width: 300px;
+    height: 300px;
+}
+.fact{
+    background-color: #4A5043;
+    padding: 10px;
+}
+.fb{
+    color: #FFB400;
+}

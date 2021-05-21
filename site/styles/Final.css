@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFE6E8;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+body{
+    background-color: #E78F8E;
+    width: 100%;
+}
+
+@font-face {
+    font-family: lemonmilk;
+    src: url('../assets/fonts/lemonmilk.otf') format("opentype");
+  }
+@font-face {
+    font-family: louis;
+    src: url("../assets/fonts/louis.ttf") format("truetype");
+}
+#home{
+    margin-bottom: 5%;
+    align-items: center;
+} 
+h1{
+    margin-top: 150px;
+    font-family: lemonmilk;
+    font-size: 80pt;
+}
+h2{
+    font-family: louis;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+}
+.mards, .jaja, .zi{
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0%;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.marj1,.jaja1,.zi1{
+    width: 200px;
+    height: 200px;
+}
+.navis{
+    font-size: 15pt;
+    text-decoration: none;
+    display: inline-block;
+    width: 160px;
+    color:#FFE6E8;
+    text-align: center;
+    font-weight: 550;
+    padding: 3px;
+    margin-left: 15px;
+}
+.navis:hover{ 
+    color: #ACD8AA;
+}
+.icons1:hover,.icons2:hover,.icons3:hover{
+    opacity: 0%;
+}
+.mic,.gdes,.paint{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+}
+.icons1,.icons2,.icons3{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.about,.playlist{
+    display: inline-block;
+    background-color: #FFE6E8 ;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0%;
+    width: 180px;
+    border-radius: 14px;
+}
+.opt{
+    font-size: 15pt;
+    text-decoration: none;
+    color: #f48498;
+    text-align: center;
+    font-weight: 550;
+    padding: 3px;
+}
+.opt:hover{
+    display: inline-block;
+    width: 180px;
+    border-radius: 14px;
+    background-color: #acd8aa;
+    color: #FFE6E8 ;
+    text-decoration: none;
+}
+.col-12{width: 100%;}
+.col-3{width: 25%;}
+@media screen and (max-width:1024px){
+    body{
+        width: 80%;
+    }
+}
+@media screen and (max-width:768px){
+    body{
+        width: 90%;
+    }
+    h2{
+        font-size: 20pt;
+    }
+    .mards, .jaja, .zi{
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .marj1, .jaja1, .zi1{
+        width: 300px;
+        height: 300px;
+    }
+    .icons1,.icons2,.icons3{
+        position: relative;
+    }
+    .icons1:hover,.icons2:hover,.icons3:hover{
+        opacity: 60%;
+    }
+    .gdes,.mic,.paint{
+        position: absolute;
+        display: none;
+    }
+    .navis{
+        font-size: 23pt;
+    }
+    .about{
+        margin-bottom: 10px;
+    }
+    .opt{
+        font-size: 23pt;
+    }
+
+@media screen and (max-width:600px){
+    body{
+        width: 100%;
+    }
+    #menu{
+        margin-right: 30px;
+        margin-top: 30px;
+    }
+    .navis{
+        background-color: #acd8aa;
+    }
+    .navis:hover{
+        color: #f48498;
+    }
+    #menu{
+        margin-right: 0px;
+    }
+    .about,.playlist,.opt:hover{
+        width: 250px;
+        border-radius: 0px;
+    }
+    .opt{
+        font-size: 24pt;
+    }
+}

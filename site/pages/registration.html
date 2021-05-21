@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="Author" content="J. Bernardo">
+        <meta name="viewport" content="width=device-width, 
+        initial-scale=1.0">
+        <meta name="description" content="Registration">
+        <link rel="stylesheet" type="text/css" 
+        href="..\styles\register.css">
+        <title>Register</title>
+        <link rel = "icon" href =  
+        "../assets/images/icons/logo.png" 
+                type = "image/x-icon"> 
+    </head>
+<body>
+    <h1>REGISTRATION FORM</h1>
+    <form>
+        <table>
+            <tr>
+                <td class="labels"> <label for="fname">Name</label> </td>
+                <td> <input type="text" class="fname" required placeholder="Jane Doe"> </td>
+            </tr>
+            <tr>
+            <tr>
+                <td class="labels"> <label>Instagram</label> </td>
+                <td> <input class="ig" type="text" placeholder="@username - Instagram"> </td>
+            </tr>
+            <tr>
+                <td class="labels"> <label>Twitter</label> </td>
+                <td> <input class="twt" type="text" placeholder="@username - Twitter"> </td>
+            </tr>
+            <tr>
+                <td class="labels"> <label for="bday">Birthdate</label> </td>
+                <td> <input type="date" class="bday" required> </td>
+            </tr>
+            <tr>
+                <td class="labels"> <label for="gender">Gender</label> </td>
+                <td> <select class="gender" name="gender" required> 
+                        <option value="None"></option>
+                        <option value="Female">Female</option>
+                        <option value="Male">Male</option>
+                        <option value="Other">Prefer not to say</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="labels"> <label for="hob">What kind of hobbies are you into?</label> </td>
+                    <td> <input type="checkbox" id="hob" name="hobby1" value="mards"><label>Like Mards, I like Singing</label> <br>
+                    <input type="checkbox" id="hob" name="hobby2" value="jaja"><label>Like Jaja, I like creating Graphic Designs</label> <br>
+                    <input type="checkbox" id="hob" name="hobby3" value="zi"><label>Like Zi, I like drawing, sketching and painting.</label><br>
+                    <input type="checkbox" id="hob" name="hobby4" value="aoa"><label>A mix of the three!</label><br>
+                    <input type="checkbox" id="hob" name="hobby5" value="none"><label>I like other hobbies. / I don't have any hobbies as of now.</label>
+                    </td>
+            </tr>
+            <tr>
+                <td>
+                    <br>
+                </td>
+                <td>
+                    <br>
+                    <input class="submit" type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+<script>
+
+</script>
+</html>

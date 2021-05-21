@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4A5043;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-color: #E6AF2E;
+    width: 100%;
+}
+h1{
+    margin-top: 100px;
+    text-align: center;
+}
+table{
+    width: 70%;
+    margin-top: 80px;
+}
+.fname,.ig,.twt,.pwd,.bday,.gender{
+    height: 30px;
+    width: 100%;
+}
+#hob{
+    margin-right: 10px;
+}
+.submit{
+    height: 30px;
+}

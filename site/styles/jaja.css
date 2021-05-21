@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D7B49E;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+body{
+    background-color: #BC412B;
+    width: 90%;
+}
+.navis{
+    display: inline-block;
+    width: 160px;
+    color: #D7B49E;
+    text-align: center;
+    font-weight: 550;
+    padding: 3px;
+    margin-top: 10px;
+    margin-right: 17px;
+    margin-left: 10px;
+    margin-bottom: 0%;
+}
+a, a:active{
+    text-decoration: none;
+    background-color: #242325;
+}
+a:hover{ 
+    color: #BC412B;
+}
+@font-face {
+    font-family: sunflower;
+    src: url("../assets/fonts/sunflower.otf") format("opentype");
+}
+@font-face {
+    font-family: retroica;
+    src: url("../assets/fonts/retroica.ttf") format("truetype");
+}
+#title{
+    font-family: sunflower;
+    font-size: 70pt;
+}
+[class*="col-"]{
+    float: left;
+    padding: 5px;
+    background-color: #242325;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+h2{
+    font-family: retroica;
+    font-size: 40pt;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+}
+.poster,.info,.netflix,.products,.mv1{
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.poster1,.poster2,.poster3{
+    width: 500px;
+    height: 700px;
+}
+.info1,.info2,.info3{
+    width: 432px;
+    height: 734.4px;
+}
+.netflix1,.netflix2,.netflix3,.netflix4{
+    width: 384px;
+    height: 576px;
+}
+.products1,.products2,.products3,.products4,.logo1,.logo2{
+    width: 530px;
+    height: 380px;
+}
+.mv1{
+    width: 70%;
+    height: auto;
+}
+.col-12{width: 100%;}
+@media screen and (max-width:768px){
+    #title{
+        font-size: 50pt;
+    }
+    body{
+        width: 90%;
+    }
+
+}
+@media screen and (max-width:600px){
+    h2{
+        font-size: 20pt;
+    }
+    .poster1,.poster2,.poster3{
+        width: 400px;
+        height: 560px;
+    }
+    .info1,.info2,.info3{
+        width: 345.6px;
+        height: 587.52px;
+    }
+    .netflix1,.netflix2,.netflix3,.netflix4{
+        width: 384px;
+        height: 576px;
+    }
+    .products1,.products2,.products3,.products4,.logo1,.logo2{
+        width: 424px;
+        height: 304px;
+    }
+}
